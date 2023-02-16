@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(24, 36, 162);
+}
+
+#sound{
+    width:30px;
+    position: absolute;
+    cursor: pointer;
+    top:440px;
+    left:100px;
+}
+
+#gameover{
+    position: absolute;
+    width : 100%;
+    margin:0;
+    padding: 0;
+    height: 100%;
+    background: rgb(2, 3, 14);
+    display: none;
+}
+
+#youwon{
+    width: 100px;
+    position: absolute;
+    top: 305px;
+    left : 638px;
+    display: none;
+}
+
+#youlose{
+    width : 100%;
+    height: 100%;
+    position: absolute;
+    top: 50px;
+    left : 0px;
+    display: none;
+}
+
+#restart{
+    position: absolute;
+    top: 210px;
+    left : 630px;
+    cursor: pointer;
+    font-size: 1.5em;
+    color : #FFF;
+    /* display: none; */
+}
